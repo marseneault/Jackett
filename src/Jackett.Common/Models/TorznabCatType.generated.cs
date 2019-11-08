@@ -36,6 +36,8 @@ namespace Jackett.Common.Models
 				
 		public static readonly TorznabCategory ConsolePS4 = new TorznabCategory(1180, "Console/PS4");
 				
+		public static readonly TorznabCategory ConsoleNSW = new TorznabCategory(1190, "Console/NSW");
+				
 		public static readonly TorznabCategory Movies = new TorznabCategory(2000, "Movies");
 				
 		public static readonly TorznabCategory MoviesForeign = new TorznabCategory(2010, "Movies/Foreign");
@@ -143,12 +145,12 @@ namespace Jackett.Common.Models
 		public static readonly TorznabCategory BooksForeign = new TorznabCategory(8060, "Books/Foreign");
 				 
 
-		public static readonly TorznabCategory[] AllCats = new TorznabCategory[] { Console, ConsoleNDS, ConsolePSP, ConsoleWii, ConsoleXbox, ConsoleXbox360, ConsoleWiiwareVC, ConsoleXBOX360DLC, ConsolePS3, ConsoleOther, Console3DS, ConsolePSVita, ConsoleWiiU, ConsoleXboxOne, ConsolePS4, Movies, MoviesForeign, MoviesOther, MoviesSD, MoviesHD, MoviesUHD, Movies3D, MoviesBluRay, MoviesDVD, MoviesWEBDL, Audio, AudioMP3, AudioVideo, AudioAudiobook, AudioLossless, AudioOther, AudioForeign, PC, PC0day, PCISO, PCMac, PCPhoneOther, PCGames, PCPhoneIOS, PCPhoneAndroid, TV, TVWEBDL, TVFOREIGN, TVSD, TVHD, TVUHD, TVOTHER, TVSport, TVAnime, TVDocumentary, XXX, XXXDVD, XXXWMV, XXXXviD, XXXx264, XXXOther, XXXImageset, XXXPacks, Other, OtherMisc, OtherHashed, Books, BooksEbook, BooksComics, BooksMagazines, BooksTechnical, BooksOther, BooksForeign };
+		public static readonly TorznabCategory[] AllCats = new TorznabCategory[] { Console, ConsoleNDS, ConsolePSP, ConsoleWii, ConsoleXbox, ConsoleXbox360, ConsoleWiiwareVC, ConsoleXBOX360DLC, ConsolePS3, ConsoleOther, Console3DS, ConsolePSVita, ConsoleWiiU, ConsoleXboxOne, ConsolePS4, ConsoleNSW, Movies, MoviesForeign, MoviesOther, MoviesSD, MoviesHD, MoviesUHD, Movies3D, MoviesBluRay, MoviesDVD, MoviesWEBDL, Audio, AudioMP3, AudioVideo, AudioAudiobook, AudioLossless, AudioOther, AudioForeign, PC, PC0day, PCISO, PCMac, PCPhoneOther, PCGames, PCPhoneIOS, PCPhoneAndroid, TV, TVWEBDL, TVFOREIGN, TVSD, TVHD, TVUHD, TVOTHER, TVSport, TVAnime, TVDocumentary, XXX, XXXDVD, XXXWMV, XXXXviD, XXXx264, XXXOther, XXXImageset, XXXPacks, Other, OtherMisc, OtherHashed, Books, BooksEbook, BooksComics, BooksMagazines, BooksTechnical, BooksOther, BooksForeign };
 
 		static TorznabCatType()
 		{
 				 
-			Console.SubCategories.AddRange(new List<TorznabCategory> { ConsoleNDS, ConsolePSP, ConsoleWii, ConsoleXbox, ConsoleXbox360, ConsoleWiiwareVC, ConsoleXBOX360DLC, ConsolePS3, ConsoleOther, Console3DS, ConsolePSVita, ConsoleWiiU, ConsoleXboxOne, ConsolePS4 });
+			Console.SubCategories.AddRange(new List<TorznabCategory> { ConsoleNDS, ConsolePSP, ConsoleWii, ConsoleXbox, ConsoleXbox360, ConsoleWiiwareVC, ConsoleXBOX360DLC, ConsolePS3, ConsoleOther, Console3DS, ConsolePSVita, ConsoleWiiU, ConsoleXboxOne, ConsolePS4, ConsoleNSW });
 				 
 			Movies.SubCategories.AddRange(new List<TorznabCategory> { MoviesForeign, MoviesOther, MoviesSD, MoviesHD, MoviesUHD, Movies3D, MoviesBluRay, MoviesDVD, MoviesWEBDL });
 				 

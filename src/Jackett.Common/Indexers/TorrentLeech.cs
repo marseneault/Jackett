@@ -78,6 +78,7 @@ namespace Jackett.Common.Indexers
             AddCategoryMapping(28, TorznabCatType.ConsoleWii);
             AddCategoryMapping(30, TorznabCatType.ConsoleNDS);
             AddCategoryMapping(39, TorznabCatType.ConsolePS4);
+            AddCategoryMapping(48, TorznabCatType.ConsoleNSW);
             AddCategoryMapping(42, TorznabCatType.PCMac, "Games/Mac");
 
             AddCategoryMapping(16, TorznabCatType.AudioVideo);
